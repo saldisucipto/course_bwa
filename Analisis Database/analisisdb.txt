@@ -24,4 +24,4 @@ Analisis Database
    - user
    - produk 
    - transaksi 
-   - kuntitatas
+   - kuantitas
