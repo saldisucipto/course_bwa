@@ -1,0 +1,27 @@
+Analisis Database 
+1. User 
+   - username 
+   - phone_number
+2. Kategori Produk 
+   - nama 
+3. Produk 
+   - nama 
+   - harga 
+   - deskripsi 
+   - tags 
+   - Kategori Produk 
+4. Galeri Produk 
+   - produk 
+   - url //picture 
+5. Transaksi 
+   - user 
+   - alamat 
+   - metode bayar
+   - total harga 
+   - total pengiriman 
+   - status
+6. Detail Transaksi
+   - user
+   - produk 
+   - transaksi 
+   - kuntitatas
