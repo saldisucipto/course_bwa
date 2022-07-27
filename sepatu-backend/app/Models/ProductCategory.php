@@ -2,10 +2,10 @@
 
 namespace App\Models;
 
+use App\Models\Product;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use App\Models\User;
 
 class ProductCategory extends Model
 {
@@ -14,10 +14,11 @@ class ProductCategory extends Model
     protected $table = 'product_category';
 
     protected $fillable = [
-        'name'
+        'name',
     ];
 
-    public function products(){
-        return $this->hasMany(User::class, 'category_id', 'id');
+    public function products()
+    {
+        return $this->hasMany(Product::class, 'category_id', 'id');
     }
 }
